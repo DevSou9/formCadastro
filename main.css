@@ -98,12 +98,13 @@ main #div-table td{
 #msg-nome-invalido{
     margin-bottom: 20px;
     text-align: center;
-    color: blue;
+    color: red;
 }
 #msg-tefefone-invalido{
     margin-bottom: 20px;
     text-align: center;
-    color: blue;
+    color: red;
+    
 }
 
 button{
