@@ -25,6 +25,7 @@ function addRows(){
         count++;
         footTable.innerHTML = `Número de cadastrados: ${count}`
     }
+    validarTelefone();
     
 }
 
@@ -41,4 +42,12 @@ function validarNome(nome){
         return false;
     }
     return true;
+}
+
+function validarTelefone(){
+    const telefone = telfoneCadastro.value;
+
+    var regexTelefone = /^\(?\d{2}\)? ?(?:9)?\d{4}-?\d{4}$/;
+    console.log(`Testando telefone: ${regexTelefone.test(telefone)}`);
+    return regexTelefone.test(telefone);
 }
