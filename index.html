@@ -10,36 +10,44 @@
     <div>
 
         <header>
-            <img src="./images/logoEbac.svg" alt="Logo EBAC">
-            <h1>Formulário de Cadastro</h1>
+            <div id="div-header-img"><img src="./images/logoEbac.svg" alt="Logo EBAC"></div>
+            <div id="div-header-h1"><h1>Formulário de Cadastro</h1></div>            
         </header>
 
         <main>
-            <form>                
-                <input id="nome" type="text" required placeholder="Nome Completo">
-                <input id="telefone" type="tel" required placeholder="Telefone com DDD">
-                <button type="submit">Cadastrar</button>
-                <button type="reset">Limpar</button>
-            </form>
+            <div id="div-form" >
+                <form>                
+                    <input id="nome" type="text" required placeholder="Nome Completo">
+                    <input id="telefone" type="tel" required placeholder="Telefone com DDD">
+                    <button type="submit">Cadastrar</button>
+                    <button type="reset">Limpar</button>
+                </form>
+            </div>
+            
             <p id="msg-nome-invalido"></p>
-            <table>
+            <p id="msg-tefefone-invalido"></p>
 
-                <thead>
-                    <tr>
-                        <th>Nome</th>
-                        <th>Telefone</th>
-                    </tr>
-                </thead>
+            <div id="div-table">
+                <table>
 
-                <tbody>
-                    
-                </tbody>
-
-                <tfoot>
-                    <tr><td>Número de Cadastros</td></tr>
-                </tfoot>
-
-            </table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Telefone</th>
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                        
+                    </tbody>
+    
+                    <tfoot>
+                      
+                    </tfoot>
+    
+                </table>
+            </div>
+            
 
         </main>
 

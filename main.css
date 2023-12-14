@@ -2,5 +2,118 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+body{
+    width: 1200px;
+    width: 100%;
     background-color: #D3E3FD;
 }
+
+input{
+    background-color: #fefefe7b;
+    border: none;
+    height: 30px;
+    outline: none;
+    padding: 3px;
+}
+
+header {
+    display: flex;
+    margin: 20px 0;
+}
+
+
+header #div-header-img{
+  
+    width: auto;
+    margin-left: 84px;
+}
+
+header #div-header-h1{
+    
+    width: 100%;
+}
+
+header #div-header-h1 h1{
+    text-align: center;
+    margin-right: 230px;
+}
+
+main {
+  
+    margin-top: 70px;
+   
+}
+
+main #div-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+main #div-table{
+   display: flex;
+   justify-content: center;
+   
+ }
+
+ table {
+    border-spacing: 0px;
+    width: 60%;
+ }
+ 
+table tr{
+    height: 40px;
+}
+
+table td, table th {
+    border-bottom: .7px solid #ccc;
+}
+
+table thead {
+  
+    margin-bottom: 100px;
+  
+
+}
+
+main #div-table tfoot{
+    width: 100%;
+   text-align: center;
+   border: 1px solid #ccc;
+   background-color: rgba(0, 0, 0, 0.022);
+   color: #000;
+ 
+}
+
+main #div-table th{
+    text-align: center;   
+}
+
+main #div-table td{
+   text-align: center;   
+}
+
+#msg-nome-invalido{
+    margin-bottom: 20px;
+    text-align: center;
+    color: blue;
+}
+#msg-tefefone-invalido{
+    margin-bottom: 20px;
+    text-align: center;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
